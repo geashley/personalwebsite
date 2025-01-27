@@ -128,8 +128,14 @@ p {
 		grid-template-columns: 1fr;
 		grid-template-rows: 1fr 1fr 1fr; 
 	}
+	.overlay-cloud {
+		top: 0%; 
+		left:5%;
+		transform: translateX(-50%); 
+		z-index: 1; 
+	  }
 	.cloud {
-		margin-top: 0px !important;
+		margin-top: 10% !important;
 		margin-bottom: 100px;
 		width: 70% !important;
 		height: 100% !important;
@@ -187,13 +193,14 @@ p {
 	color: #6b3859 !important;
 	font-size: 12px !important;
 }
+
 .overlay-cloud {
 	position: absolute;
 	top: 55%; 
 	left: 35%;
 	transform: translateX(-50%); 
 	z-index: 1; 
-  }
+}
 
 .two {
 	margin-top: 60%;
