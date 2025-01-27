@@ -1,0 +1,236 @@
+/* background images */
+
+.title {
+	background-image: url("./images/title-bg.png");
+	height: 100%;
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about {
+	background-image: url("./images/about-bg.png");
+	height: 100%;
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact {
+	background-image: url("./images/contact-bg.png");
+	height: 100%;
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  height: 100vh;      
+}
+
+.career {
+	background-image: url("./images/career-bg.png");
+	height: 100%;
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 5%
+}
+
+p {
+	font-family: 'Atkinson Hyperlegible';
+	color: #6b3859;
+}
+
+.profile {
+	border-radius: 40%;
+	border-color: #7d411f;
+	border-width: 4px;
+	border-style: solid;
+}
+
+.position-relative {
+	position: relative;
+  }
+  
+  .overlay-image {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: -5%; 
+	left: -3%;
+	transform: translateX(-50%); 
+	z-index: 1; 
+  }
+
+#title h1 {
+	font-family: 'Kaisei Opti', serif;
+	font-weight: 400;
+	color: #6b3859 !important;
+	font-size: 86px !important;
+	margin-left: 60px;
+}
+
+#about-me h2 {
+	font-family: 'Kaisei Opti', serif;
+	font-weight: 400;
+	color: #6b3859 !important;
+	font-size: 60px !important
+}
+
+#title p {
+	letter-spacing: 3px;
+	font-size: 25px !important;
+	margin-left: 60px;
+}
+
+#about-me p {
+	font-size: 30px !important;
+}
+.overlay {
+	position: absolute;
+	top: -40%; 
+	left: 20%;
+	transform: translateX(-50%); 
+	z-index: 1; 
+  }
+
+.gold-frame {
+	transform: scaleX(-1) scaleY(-1);
+	width: 100%
+}
+
+.about-flowers {
+	margin-top: 60px !important;
+}
+
+.container-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	align-items: start;
+	min-width: 400px;
+  }
+
+.flex-content {
+	display: flex;
+	flex-direction: column;  
+	justify-content: center;
+	align-items: center;  
+	text-align: center;    
+	width: 100%;
+	height: 100%;          
+	z-index: 2;            
+}
+
+@media (max-width: 1000px) {
+	.container-grid {
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr 1fr; 
+	}
+	.cloud {
+		margin-top: 0px !important;
+		margin-bottom: 100px;
+		width: 70% !important;
+		height: 100% !important;
+	}
+	
+}
+.cloud {
+	background-image: url("./images/career-cloud.png");
+	background-size: cover;
+	background-position: center;
+	height: 50vh;
+	width: 100%;
+}
+
+.label {
+	background-image: url("./images/label.png");
+	background-size: cover;
+	background-position: center;
+	height: 40vh;
+	width: 60%;
+}
+
+
+.job {
+	font-family: 'Kaisei Opti', serif;
+	font-weight: bolder;
+	color: #6b3859 !important;
+	font-size: 26px !important;
+}
+
+.company {
+	font-family: 'Kaisei Opti', serif;
+	font-style: italic;
+	color: #6b3859 !important;
+	font-size: 15px !important;
+}
+
+.desc {
+	font-family: 'Atkinson Hyperlegible';
+	color: #6b3859;
+	font-size: 18px !important;
+	max-width: 300px;
+}
+
+.location {
+	font-family: 'Kaisei Opti', serif;
+	font-style: italic;
+	color: #6b3859 !important;
+	font-size: 16px !important;
+}
+
+.year {
+	font-family: 'Kaisei Opti', serif;
+	font-style: italic;
+	color: #6b3859 !important;
+	font-size: 12px !important;
+}
+.overlay-cloud {
+	position: absolute;
+	top: 55%; 
+	left: 35%;
+	transform: translateX(-50%); 
+	z-index: 1; 
+  }
+
+.two {
+	margin-top: 60%;
+	margin-bottom: 100px;
+}
+
+.flex-container {
+	display: flexbox;
+	align-items: center;
+	justify-content: center;
+}
+.flex-container > .div{
+	width: 0%;
+}
+
+
+.contact-frame {
+	height: 100%;
+	width: 100%;
+	padding-top: 8%;
+	padding-left: 8%;
+	object-fit: cover;
+}
+
+.contact-me {
+	font-family: 'Kaisei Opti', serif;
+	font-weight: 400;
+	color: #6b3859 !important;
+	font-size: 50px !important;
+	text-align: left;
+	letter-spacing: 1px;
+}
+
+.overlay-contact {
+	position: absolute;
+	top: 6%; 
+	left: 55%;
+	transform: translateX(-50%); 
+	z-index: 1; 
+  }
